@@ -76,3 +76,16 @@ body {
 
 #sidebar {
   padding-top: 24px;
+}
+
+.sidebar-title, .sidebar_title {
+  font-family: monospace !important;
+}
+
+.sidebar-body li {
+  list-style: circle !important;
+}
+
+.sidebar_body li {
+  list-style: circle !important;
+}
