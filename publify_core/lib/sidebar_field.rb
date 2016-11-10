@@ -16,7 +16,7 @@ class SidebarField
     options[:label] || key.humanize.gsub(/url/i, 'URL')
   end
 
-  def label_html(_sidebar)
+  def label_html(sidebar)
     content_tag('label', label)
   end
 
