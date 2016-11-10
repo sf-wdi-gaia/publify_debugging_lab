@@ -81,7 +81,3 @@ body {
 #sidebar .sidebar-title {
   font-family: monospace;
 }
-
-#sidebar .sidebar-body li {
-  list-style-type: circle;
-}
