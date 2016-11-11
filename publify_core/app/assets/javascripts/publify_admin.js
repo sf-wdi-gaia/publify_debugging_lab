@@ -76,7 +76,6 @@ function tag_manager() {
 }
 
 function save_article_tags() {
-  console.log($('#article_form').find('input[name="article[keywords]"]').val());
   $('#article_keywords').val($('#article_form').find('input[name="hidden-article[keywords]"]').val() + "," + $('#article_form').find('input[name="article[keywords]"]').val());
 }
 
