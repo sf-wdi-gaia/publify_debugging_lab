@@ -39,6 +39,7 @@ class ArchivesSidebar < Sidebar
         article_count: entry.count
       }
     end
+    @archives = @archives.sort { |a, b| [a[:year], a[:month]] <=> [b[:year], b[:month]] }
   end
 end
 
